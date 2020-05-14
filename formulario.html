@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+	<title>portal personal Sebastian Rodriguez</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-inverse bg-primary navbar-static-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-fm">
+        <span class="sr-only">Desplegar / Ocultar Menú</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html" id="btnInicio-mH">Inicio</a>
+    </div>
+
+    <!-- Inicio del menu horizontal con bootstrap -->
+    <div class="collapse navbar-collapse" id="navegacion-fm">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="Tablas.html" id="btnTablas-mH" >Tablas</a></li>
+        <li><a href="video.html" id="btnVideo-mH">Video</a></li>
+		<li><a href="formulario.html" id="btnFormulario-mH">Formulario</a></li>
+      </ul>
+    </div>
+	  <!-- fin del menu horizontal con bootstrap-->
+  </div>		
+</nav>
+		</header>
+	<!--Aqui va el jumbotron-->
+	<section class="jumbotron">
+		<div class="container">
+		<img class="banner" src="imagenes/baner.jpg">
+		</div>
+	</section>
+	
+	<!--inicio del menu vertical con css-->
+
+<nav class="Nav_vertical">
+   <div>
+		<ul class="menuVertical">
+			<li><a href="index.html" id="btnInicio-mv">Inicio</a></li>
+			<li><a href="Tablas.html" id="btnTablas-mV">Tablas</a></li>
+			<li><a href="video.html" id="btnVideo-mV">Video</a></li>
+			<li><a href="formulario.html" id="btnFormulario-mV">Formulario</a></li>
+		</ul>
+    </div>
+</nav>
+	<!-- fin del menu vertical
+
+	<!--creamos el contenedor central-->
+	<section class="contenedorCentral">
+		<div class="row"></div>
+			<section class="posts col-md-9">
+				<div class="miga-de-pan">
+					<ol class="breadcrumb">
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="Tablas.html">Tablas</a></li>
+						<li><a href="video.html">Video</a></li>
+						<li class="active">Formulario</li>
+					</ol>
+				</div>
+				
+				<!--Espacio para ingresar el contenido-->
+				<form action="" class="formulario">
+		<h2 class="formulario__titulo">FORMULARIO</h2>
+		<input type="text" id="Nombre" name="txtNombre"  class="formulario__input" onsubmit="return validar();" >
+		<label for="" class="formulario__label">Nombre:</label>
+		<input type="text" id="Direccion" name="txtDireccion" class="formulario__input" onsubmit="return validar();">
+		<label for="" class="formulario__label">Dirección:</label>
+		<input type="text" id="Telefono" name="txtTelefono" class="formulario__input" onsubmit="return validar();">
+		<label for="" class="formulario__label">Telefono:</label>
+		<input type="text" id="Email" name="txtEmail" class="formulario__input" onsubmit="return validar();">
+		<label for="" class="formulario__label">Correo:</label>
+		<input type="text" id="Ciudad" name="txtCiudad" class="formulario__input" onsubmit="return validar();">
+		<label for="" class="formulario__label">Ciudad:</label>
+		<input type="text" id="Edad" name="txtEdad" class="formulario__input" onsubmit="return validar();">
+		<label for="" class="formulario__label">Edad:</label>
+		<input type="submit" class="formulario__submit">
+	</form>
+	<script src="js/formulario.js"></script>
+
+			  <!-- fin del espacio ingreso de contenido-->
+			</section>
+	</section>
+	
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+<div class="row"></div>
+	<div class="row"></div>
+	 <div id="PiePagina">
+		 <center><h5>Copyright ©</h5></center>
+          <center><h5>Derechos Reservados por SEBASTIAN RODRIGUEZ POSASDA. Contacto: sebastian.rodriguez723@pascualbravo.edu.co</h5></center>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
